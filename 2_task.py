@@ -1,3 +1,4 @@
+# 2 задание
 time_sec = int(input('Введите время в секундах: '))
 seconds = time_sec
 minutes = round(seconds / 60, 2)
