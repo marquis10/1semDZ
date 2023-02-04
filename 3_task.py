@@ -1,7 +1,3 @@
-n = int(input('Введите целое положительное число n: '))
-nn = n + n
-nnn = n + n + n
-n = str(n)
-nn = str(nn)
-nnn = str(nnn)
-print('n + nn + nnn = ' + n + nn + nnn)
+n = input('Введите целое положительное число n: ')
+summa = int(n) + int(n + n) + int(n + n + n)
+print(f'n + nn + nnn = {summa}')
